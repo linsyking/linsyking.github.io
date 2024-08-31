@@ -102,11 +102,9 @@
       <h2 id="research-interests">Research Interests</h2>
 
       <ul>
-        <li><strong>Operating System:</strong> eBPF, Linux kernel, OS design</li>
-        <li><strong>Compiler:</strong> LLVM, compiler architecture, optimization, static check, JIT</li>
-        <li><strong>Game Engine:</strong> game engine architecture, multi-core component design, message-based game
-          engine architecture, JIT</li>
-        <li><strong>Programming language:</strong> functional programming languages, type system design</li>
+        <li><strong>Operating System:</strong> eBPF, Linux kernel</li>
+        <li><strong>Compiler:</strong> LLVM, compiler architecture, compiler optimization, static check</li>
+        <li><strong>Game Engine:</strong>game engine architecture, multi-core game engine, functional programming game engine</li>
       </ul>
 
       <h2 id="projects">Projects</h2>
@@ -120,7 +118,7 @@
                 <div class="title"><a href="https://github.com/linsyking/puka">Puka: Multi-platform 2D Game Engine with
                     Simplicity and Concurrency in Mind</a></div>
                 <div class="author"> Yiming Xiang </div>
-                <div class="periodical"><em>Winter, 2024</em>
+                <div class="periodical"><em>From February 2024 to May 2024</em>
                   <div class="links">
                     <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">C++</a>
                     <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Lua</a>
@@ -134,7 +132,7 @@
                     </p>
                     <p>Users could write game logic in Lua scripts (called components) and specify the relationship
                       between all the components and Puka will <b>infer the best possible way to map components to a CPU
-                        core</b>. For each CPU core Puka will create a Lua Virtual Machine (VM) to execute game code.
+                        core</b>. For each CPU core Puka will create a Lua Virtual Machine (VM) to execute game codes.
                     </p>
                     <p>Lua doesn't support multi-core execution, so Puka uses a mechanism to do <b>automatic
                         synchronization</b> between different Lua VMs. See <a
