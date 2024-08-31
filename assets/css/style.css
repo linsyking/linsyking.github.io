@@ -168,3 +168,7 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .fakelink { text-decoration: none; cursor: pointer; }
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
+
+.detail {
+  padding: 20px;
+}
