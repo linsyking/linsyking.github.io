@@ -41,17 +41,17 @@
       <h1>Yiming Xiang</h1>
 
 
-      <position style="font-size:1.10rem;">Senior Student</position>
+      <position style="font-size:1.10rem;">PhD Student</position>
       <br>
 
 
       <a href="" rel="noopener">
-        <autocolor>University of Michigan</autocolor>
+        <autocolor>University of Texas at Austin</autocolor>
       </a>
       <br>
 
 
-      <email>kxiang (at) umich.edu</email>
+      <email>yiming (at) cs.utexas.edu</email>
 
 
       <br>
@@ -88,8 +88,10 @@
 
       <h2 id="about-me">About Me</h2>
 
-      <p>I am a senior student majoring in <b>Computer Science</b> at University of Michigan. I am an undergraduate
-        research assistant doing <b>operating system research</b> in <a
+      <p>I am a first-year PhD student in <b>Computer Science</b> at the University of Texas at Austin, advised by
+        <a href="https://www.cs.utexas.edu/~witchel/">Prof. Emmett Witchel</a>.
+        Previously, I graduated with major of Computer Science and Electrical and Computer Engineering at the University of Michigan and Shanghai JiaoTong University.
+        During my undergraduate at UMich, I have been fortunate to work at <a
           href="https://orderlab.io/team.html">OrderLab</a>
         advised by <a href="https://web.eecs.umich.edu/~ryanph/">Prof. Ryan Huang</a>.</p>
 
@@ -124,6 +126,27 @@
 
       <div class="publications">
         <ol class="bibliography">
+
+          <li>
+            <div class="pub-row">
+              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
+                <div class="title"><a href="https://github.com/OrderLab/ePass">ePass: An in-kernel compiler framework for eBPF programs</a></div>
+                <div class="author"> Yiming Xiang </div>
+                <div class="periodical"><em>From May 2024 to Now</em>
+                  <div class="links">
+                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">eBPF</a>
+                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">C</a>
+                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Linux Kernel</a>
+                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Compiler</a>
+                  </div>
+                  <div class="detail">
+                    <p>ePass is an in-kernel LLVM-like compiler framework that introduces an SSA-based intermediate representation (IR) for eBPF programs. It provides a lifter that lifts eBPF bytecode to ePass IR, a pass runner that runs user-defined passes, and a code generator that compiles IR to eBPF bytecode. Users could write flexible passes using our LLVM-like APIs to analyze and manipulate the IR.</p>
+                    <p>ePass also provides an in-kernel supervisor that cooperates ePass core with the verifier to improve its flexibility (i.e. reduce false rejections) and safety (i.e. reduce false acceptance at runtime). It could also be used in userspace for testing.</p>
+                  </div>
+                </div>
+              </div>
+          </li>
+          <br />
 
           <li>
             <div class="pub-row">
