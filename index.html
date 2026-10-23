@@ -1,402 +1,341 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <title>Yiming Xiang</title>
-
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yiming Xiang</title>
+  <meta name="description"
+    content="Yiming Xiang is a Ph.D. student in Computer Science at The University of Texas at Austin, working on operating systems and compilers.">
+  <meta name="author" content="Yiming Xiang">
 
-  <link rel="canonical" href="https://minimal-light-theme.yliu.me/" />
+  <link rel="canonical" href="https://linsyking.github.io/">
+  <link rel="icon" href="./assets/img/favicon.png" type="image/png">
 
-
-  <link rel="icon" href="./assets/img/favicon.png" type="image/png" />
-  <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-
-  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
-    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-  <link rel="stylesheet" href="./assets/css/font.css">
-
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/publications.css">
-
-
+  <script src="./assets/js/nav.js" defer></script>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+  <nav class="topnav" aria-label="Main">
+    <div class="topnav-inner">
+      <a class="brand" href="#home">Yiming Xiang</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
 
-
-      <a class="image avatar"><img src="./assets/img/profile.jpg" alt="avatar" /></a>
-
-
+  <div class="wrapper" id="home">
+    <aside class="profile">
+      <img class="avatar" src="./assets/img/profile.jpg" alt="Portrait of Yiming Xiang">
       <h1>Yiming Xiang</h1>
+      <p class="role">Ph.D. Student</p>
+      <p class="affiliation"><a href="https://www.cs.utexas.edu/">Department of Computer Science<br>
+          The University of Texas at Austin</a></p>
+      <p class="email">yiming (at) cs.utexas.edu</p>
 
-
-      <position style="font-size:1.10rem;">PhD Student</position>
-      <br>
-
-
-      <a href="" rel="noopener">
-        <autocolor>University of Texas at Austin</autocolor>
-      </a>
-      <br>
-
-
-      <email>yiming (at) cs.utexas.edu</email>
-
-
-      <br>
-      <br>
       <div class="social-icons">
-
-        <!-- <a style="margin: 0 5px 0 0" href="https://scholar.google.com/">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a> -->
-
-
-
-        <!-- <a style="margin: 0 5px 0 0" href="assets/cv.pdf">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a> -->
-
-
-
-        <a style="margin: 0 5px 0 0" href="https://github.com/linsyking">
-          <i class="fab fa-github"></i>
-        </a>
-
-
-
-        <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/ymxiang/">
-          <i class="fab fa-linkedin"></i>
-        </a>
-
+        <a href="https://scholar.google.com/citations?user=fw5aND0AAAAJ" title="Google Scholar"
+          aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://github.com/linsyking" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ymxiang/" title="LinkedIn" aria-label="LinkedIn"><i
+            class="fab fa-linkedin"></i></a>
+        <!-- <a href="assets/cv.pdf" title="CV" aria-label="CV"><i class="ai ai-cv"></i></a> -->
       </div>
-      <br>
+    </aside>
 
-    </header>
-    <section>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
 
-      <h2 id="about-me">About Me</h2>
+        <p>I am a Ph.D. student in <b>Computer Science</b> at The University of Texas at Austin, advised by
+          <a href="https://www.cs.utexas.edu/~witchel/">Prof. Emmett Witchel</a>. I work on <b>computer systems</b>,
+          especially <b>operating systems</b> and <b>compilers</b>, and I am broadening my research into distributed
+          systems and machine learning systems.</p>
 
-      <p>I am a first-year PhD student in <b>Computer Science</b> at the University of Texas at Austin, advised by
-        <a href="https://www.cs.utexas.edu/~witchel/">Prof. Emmett Witchel</a>.
-        Previously, I graduated with major of Computer Science and Electrical and Computer Engineering at the University of Michigan and Shanghai JiaoTong University.
-        During my undergraduate at UMich, I have been fortunate to work at <a
-          href="https://orderlab.io/team.html">OrderLab</a>
-        advised by <a href="https://web.eecs.umich.edu/~ryanph/">Prof. Ryan Huang</a>.</p>
+        <p>I completed my undergraduate studies in Computer Science and Electrical and Computer Engineering at the
+          University of Michigan and Shanghai Jiao Tong University. At Michigan, I worked with
+          <a href="https://web.eecs.umich.edu/~ryanph/">Prof. Ryan Huang</a> at
+          <a href="https://orderlab.io/team.html">OrderLab</a>, where I started <a href="#projects">ePass</a>.
+          Earlier in my undergraduate studies, I worked on <b>game engine architecture</b> with
+          <a href="https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Prof. Manuel
+            Charlemagne</a>.</p>
 
-      <p>In my freshman and sophomore year, I was doing <b>game engine architecture</b> research advised by <a
-          href="https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Prof. Manuel
-          Charlemagne</a>. </p>
+        <p>I enjoy designing and building powerful systems. I am also interested in programming languages for systems
+          programming, and I currently write my new projects in Rust.</p>
 
-      <p>I have broad interest in <b>computer systems</b>, including <b>operating systems</b>, <b>compiler systems</b>
-        and <b>game engines</b>. I am also broadening my research interest in distributed systems and machine learning
-        systems. I enjoy designing and building powerful systems.</p>
+        <h2>Research Interests</h2>
 
-      <p>I am also interested in <b>programming languages</b> (for systems). I have programming experience and skills in
-        more than 20 programming languages. Currently I use <b>Rust</b> 🦀 to start my new projects.</p>
+        <ul>
+          <li><strong>Operating Systems:</strong> eBPF, Linux kernel</li>
+          <li><strong>Compilers:</strong> LLVM, compiler architecture, compiler optimization, static checking</li>
+          <li><strong>Game Engines:</strong> game engine architecture, multi-core game engines, functional programming
+            game engines</li>
+        </ul>
+      </section>
 
-      <h2 id="research-interests">News</h2>
+      <section id="news">
+        <h2>News</h2>
 
-      <ul>
-        <li><strong>2025-12:</strong> Gave a <a href="https://lpc.events/event/19/contributions/2179/">talk</a> at the Linux Plumber Conference.
-        </li>
-        <li><strong>2025-9:</strong> <i>ePass</i> was awared the <a href="https://ebpf.foundation/funding-opportunities/research-fund/">2025 eBPF Academic Research Grant</a> from the eBPF foundation.
-        </li>
-        <li><strong>2024-12:</strong> Selected as Honorable Mention for <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">2025 CRA Outstanding Undergraduate Researcher Award</a> in the United States.
-        </li>
-      </ul>
-
-      <h2 id="research-interests">Research Interests</h2>
-
-      <ul>
-        <li><strong>Operating System:</strong> eBPF, Linux kernel</li>
-        <li><strong>Compiler:</strong> LLVM, compiler architecture, compiler optimization, static check</li>
-        <li><strong>Game Engine:</strong>game engine architecture, multi-core game engine, functional programming game
-          engine</li>
-      </ul>
-
-      <h2 id="projects">Ongoing Projects</h2>
-
-      <div class="publications">
-        <ol class="bibliography">
-
+        <ul class="news">
           <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/OrderLab/ePass">ePass: An in-kernel compiler framework for eBPF programs</a></div>
-                <div class="author"> Yiming Xiang </div>
-                <div class="periodical"><em>From May 2024 to Now</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">eBPF</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">C</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Linux Kernel</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Compiler</a>
-                  </div>
-                  <div class="detail">
-                    <p>ePass is an in-kernel LLVM-like compiler framework that introduces an SSA-based intermediate representation (IR) for eBPF programs. It provides a lifter that lifts eBPF bytecode to ePass IR, a pass runner that runs user-defined passes, and a code generator that compiles IR to eBPF bytecode. Users could write flexible passes using our LLVM-like APIs to analyze and manipulate the IR.</p>
-                    <p>ePass also provides an in-kernel supervisor that cooperates ePass core with the verifier to improve its flexibility (i.e. reduce false rejections) and safety (i.e. reduce false acceptance at runtime). It could also be used in userspace for testing.</p>
-                  </div>
-                </div>
-              </div>
+            <span class="news-date">Dec 2025</span>
+            <span>Gave a <a href="https://lpc.events/event/19/contributions/2179/">talk</a> on ePass at the Linux
+              Plumbers Conference 2025.</span>
           </li>
-          <br />
-
           <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/puka">Puka: Multi-platform 2D Game Engine with
-                    Simplicity and Concurrency in Mind</a></div>
-                <div class="author"> Yiming Xiang </div>
-                <div class="periodical"><em>From February 2024 to May 2024</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">C++</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Lua</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Game
-                      Engine</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">SDL2</a>
-                  </div>
-                  <div class="detail">
-                    <p>Puka is an experimental 2D game engine designed to improve <b>concurrency</b> and keep
-                      <b>simplicity</b> for the users at the same time.
-                    </p>
-                    <p>Users could write game logic in Lua scripts (called components) and specify the relationship
-                      between all the components and Puka will <b>infer the best possible way to map components to CPU
-                        cores</b>. For each CPU core Puka will create a Lua Virtual Machine (VM) to execute game codes.
-                    </p>
-                    <p>Lua doesn't support multi-core execution, so Puka uses a mechanism to do <b>automatic
-                        synchronization</b> between different Lua VMs. See <a
-                        href="https://2ngblog.netlify.app/blog/posts/writing/2024/puka/">the blog post</a> for more
-                      design
-                      details.</p>
-                  </div>
-                </div>
-              </div>
+            <span class="news-date">Sep 2025</span>
+            <span>ePass received a <a href="https://ebpf.foundation/funding-opportunities/research-fund/">2025 eBPF
+                Academic Research Grant</a> from the eBPF Foundation.</span>
           </li>
-          <br />
-
           <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/messenger">Messenger: A 2D Game Engine for
-                    Elm</a></div>
-                <div class="author"><b>Yiming Xiang</b>, Ruiyu Jiang, Weiyi Wang, SilverFOCS Stuffs</div>
-                <div class="periodical"><em>From June 2022 to Now</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Elm</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Game
-                      Engine</a>
-                  </div>
-                  <div class="detail">
-                    <p>Messenger is a state-of-art 2D game engine with many design concepts borrowing from operating
-                      systems. It has a new architecture using "typed message passing", powered by the
-                      functional programming language Elm.</p>
-                    <img src="assets/img/messenger.png" alt="Messenger architecture"
-                      style="width: 70%;display: block;margin-left: auto;margin-right: auto;" />
-                    <p>More than 100 students used Messenger to build great games. See <a
-                        href="https://focs.ji.sjtu.edu.cn/silverfocs/">SilverFOCS Game</a> 2023+ games.</p>
-                  </div>
-                </div>
-              </div>
+            <span class="news-date">Dec 2024</span>
+            <span>Received an Honorable Mention for the
+              <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">2025 CRA Outstanding
+                Undergraduate Researcher Award</a>.</span>
           </li>
-          <br />
+        </ul>
+      </section>
 
-          <!-- <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/Reweave">Reweave</a></div>
-                <div class="author"><b>Yiming Xiang</b>, Lingbo Duan, Dayong Wang, JingJing Zhang</div>
-                <div class="periodical"><em>From June 2022 to August 2022</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Elm</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Game
-                      Engine</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Game
-                      Design</a>
-                  </div>
-                  <div class="detail">
-                  </div>
-                </div>
-              </div>
-          </li>
-          <br /> -->
+      <section id="publications">
+        <h2>Publications</h2>
 
-          <!-- <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/meow-lang">Meow-Lang: An Experimental PL for
-                    String Replacement</a></div>
-                <div class="author">Yiming Xiang</div>
-                <div class="links">
-                  <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Rust</a>
-                </div>
-                <div class="detail">
-                </div>
+        <ol class="entries">
+          <li class="entry pub">
+            <div><span class="badge">SOSP '26</span></div>
+            <div>
+              <p class="entry-title"><a href="https://dl.acm.org/doi/10.1145/3830418.3843906">Borges: A Low-Latency
+                  Distributed Shared Log on a CXL Memory/SSD Hybrid</a></p>
+              <p class="entry-authors">Haowei Chen, <strong>Yiming Xiang</strong>, Zhipeng Jia, Yan Sun, Nam Sung Kim,
+                Emmett Witchel</p>
+              <p class="entry-venue"><em>Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems
+                  Principles</em> (SOSP), 2026</p>
+              <div class="links">
+                <a href="https://dl.acm.org/doi/10.1145/3830418.3843906"><i class="fa-solid fa-book-open"></i>
+                  Paper</a>
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3830418.3843906"><i class="fa-solid fa-file-pdf"></i>
+                  PDF</a>
               </div>
             </div>
           </li>
-          <br /> -->
 
-          <!-- <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/nova-wxm">Nova WXM: A Full-fledged Visual Novel
-                    Game Running on Wechat Miniprogram Using Unity</a></div>
-                <div class="author"><b>Yiming Xiang</b>, TechJI stuffs</div>
-                <div class="periodical"><em>From June 2022 to August 2023</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Unity</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Nova</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">C#</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Lua</a>
-                  </div>
-                  <div class="detail">
-                    <p>
-
-                      <a href="https://github.com/Lunatic-Works/Nova">Nova</a> is a visual novel game framework for
-                      Unity. However, it doesn't support WebGL platform. Our team rewrote the asset management system
-                      and port Nova to Wechat Miniprogram platform by using the <a
-                        href="https://github.com/wechat-miniprogram/minigame-unity-webgl-transform">Minigam Unity WebGL
-                        Tranform</a> tool.
-                    </p>
-                    <p>
-                      Our architecture supports script <b>hot loading</b>. All the script and game resources (e.g.
-                      images) are stored on the server.
-                    </p>
-                    <p>We also developed an <a href="https://github.com/linsyking/nova-online-editor">online editor</a>
-                      for non-programmers to write visual novel scripts.</p>
-                    <p>
-                      See <a href="https://mp.weixin.qq.com/s/qVaIyXLulfuaPLAMDKfCIA">this post</a> to read more and
-                      play the game!
-                    </p>
-                  </div>
-                </div>
+          <li class="entry pub">
+            <div><span class="badge">AIOps '25</span></div>
+            <div>
+              <p class="entry-title"><a href="https://ieeexplore.ieee.org/document/11029328">Automated Bug Discovery in
+                  Cloud Infrastructure-as-Code Updates with LLM Agents</a></p>
+              <p class="entry-authors"><strong>Yiming Xiang</strong>, Zhenning Yang, Jingjia Peng, Hermann Bauer,
+                Patrick Tser Jern Kon, Yiming Qiu, Ang Chen</p>
+              <p class="entry-venue"><em>IEEE/ACM International Workshop on Cloud Intelligence &amp; AIOps</em> (AIOps),
+                2025</p>
+              <div class="links">
+                <a href="https://ieeexplore.ieee.org/document/11029328"><i class="fa-solid fa-book-open"></i> Paper</a>
               </div>
+            </div>
           </li>
-          <br /> -->
-
-          <!-- <li>
-            <div class="pub-row">
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="https://github.com/linsyking/CanvasHelper2">CanvasHelper2</a></div>
-                <div class="author"><b>Yiming Xiang</b>, TechJI stuffs</div>
-                <div class="periodical"><em>From 2021 to Now</em>
-                  <div class="links">
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Python</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Vue.js</a>
-                    <a class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">FastAPI</a>
-                  </div>
-                  <div class="detail">
-                  </div>
-                </div>
-              </div>
-          </li>
-          <br /> -->
-
-
         </ol>
-      </div>
+      </section>
 
+      <section id="projects">
+        <h2>Projects</h2>
 
-      <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
-      <div class="publications">
-        <ol class="bibliography">
-
-          <!-- <li>
-            <div class="pub-row">
-              <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-
-                <img src="./assets/img/paper1.png" class="teaser z-depth-1" style="max-width: 100%;max-height: 100%;" />
-
-                <abbr class="badge">Coming Soon</abbr>
-
-              </div>
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="">Coming Soon</a></div>
-                <div class="author"><strong>Yiming Xiang</strong>, ...</div>
-                <div class="periodical"><em>International Conference on Medical Image Computing and Computer-Assisted
-                    Intervention <strong>()</strong>, 2024.</em>
-                </div>
-                <div class="links">
-
-                  <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-
-
-                  <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-
-
-
-                  <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank"
-                    style="font-size:12px;">BibTex</a>
-
-
-                </div>
-              </div>
+        <ol class="entries">
+          <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/OrderLab/ePass">ePass: An In-Kernel Compiler Framework
+                  for eBPF Programs</a></p>
+              <span class="project-date">May 2024 – Present</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong></p>
+            <ul class="tags">
+              <li>eBPF</li>
+              <li>C</li>
+              <li>Linux Kernel</li>
+              <li>Compiler</li>
+            </ul>
+            <div class="entry-detail">
+              <p>ePass is an in-kernel, LLVM-like compiler framework that introduces an SSA-based intermediate
+                representation (IR) for eBPF programs. It provides a lifter that lifts eBPF bytecode to ePass IR, a pass
+                runner that runs user-defined passes, and a code generator that compiles the IR back to eBPF bytecode.
+                Users can write flexible passes with LLVM-like APIs to analyze and transform the IR.</p>
+              <p>ePass also provides an in-kernel supervisor that works with the verifier to improve its flexibility
+                (i.e., fewer false rejections) and safety (i.e., fewer false acceptances at runtime). It can also run in
+                userspace for testing.</p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/OrderLab/ePass"><i class="fab fa-github"></i> Code</a>
+              <a href="https://lpc.events/event/19/contributions/2179/"><i class="fa-solid fa-person-chalkboard"></i>
+                LPC 2025 Talk</a>
             </div>
           </li>
-          <br /> -->
 
-
-          <li>
-            <div class="pub-row">
-              <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-
-                <img src="./assets/img/paper2.png" class="teaser z-depth-1" style="max-width: 100%;max-height: 100%;" />
-
-                <!-- <abbr class="badge">Coming Soon</abbr> -->
-
-
-              </div>
-              <div class="col-sm-9" style="position: relative; padding-right: 15px;padding-left: 20px;">
-                <div class="title"><a href="http://www.nsmath.cn/filedownload/172904">The Properties of a Characteristic
-                    Point of Triangles Under a Specific Structure</a></div>
-                <div class="author"><strong>Yiming Xiang</strong></div>
-                <div class="periodical"><em>New Stars of Mathematics, 2020.</em>
-                </div>
-                <div class="links">
-
-                  <a href="http://www.nsmath.cn/filedownload/172904" class="btn btn-sm z-depth-0" role="button"
-                    target="_blank" style="font-size:12px;">PDF</a>
-
-
-                </div>
-              </div>
+          <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/puka">Puka: Multi-Platform 2D Game Engine with
+                  Simplicity and Concurrency in Mind</a></p>
+              <span class="project-date">Feb 2024 – May 2024</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong></p>
+            <ul class="tags">
+              <li>C++</li>
+              <li>Lua</li>
+              <li>Game Engine</li>
+              <li>SDL2</li>
+            </ul>
+            <div class="entry-detail">
+              <p>Puka is an experimental 2D game engine designed to improve <b>concurrency</b> while keeping
+                <b>simplicity</b> for its users.</p>
+              <p>Users write game logic as Lua scripts (called components) and specify the relationships between
+                components; Puka then <b>infers the best way to map components to CPU cores</b>, creating one Lua
+                virtual machine (VM) per core to execute game code.</p>
+              <p>Because Lua does not support multi-core execution, Puka performs <b>automatic synchronization</b>
+                between Lua VMs. See <a href="https://2ngblog.netlify.app/blog/posts/writing/2024/puka/">the blog
+                  post</a> for design details.</p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/linsyking/puka"><i class="fab fa-github"></i> Code</a>
+              <a href="https://2ngblog.netlify.app/blog/posts/writing/2024/puka/"><i class="fa-solid fa-pen-nib"></i>
+                Blog Post</a>
             </div>
           </li>
-          <br />
 
+          <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/messenger">Messenger: A 2D Game Engine for
+                  Elm</a></p>
+              <span class="project-date">Jun 2022 – Present</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong>, Ruiyu Jiang, Weiyi Wang, SilverFOCS Staff</p>
+            <ul class="tags">
+              <li>Elm</li>
+              <li>Game Engine</li>
+            </ul>
+            <div class="entry-detail">
+              <p>Messenger is a 2D game engine whose design borrows many concepts from operating systems. It introduces
+                an architecture based on <b>typed message passing</b>, powered by the functional programming language
+                Elm.</p>
+              <p>More than 100 students have used Messenger to build games; see the
+                <a href="https://focs.ji.sjtu.edu.cn/silverfocs/">SilverFOCS Game</a> showcase from 2023 onward.</p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/linsyking/messenger"><i class="fab fa-github"></i> Code</a>
+              <a href="https://focs.ji.sjtu.edu.cn/silverfocs/"><i class="fa-solid fa-gamepad"></i> Student Games</a>
+            </div>
+          </li>
+
+          <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="./assets/pdf/nsmath.pdf">On a Property of Special Triangle Points in a
+                  Specific Configuration</a></p>
+              <span class="project-date">2020</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong></p>
+            <p class="entry-venue">Originally published in Chinese in <em>New Stars of Mathematics</em>, 2020</p>
+            <ul class="tags">
+              <li>Euclidean Geometry</li>
+              <li>Mathematics</li>
+            </ul>
+            <div class="entry-detail">
+              <p>Starting from two olympiad geometry problems with the same structure, this paper characterizes the
+                points <i>P</i> inside a triangle for which the line through <i>P</i> perpendicular to <i>OP</i> is
+                divided by the cevian line <i>EF</i> and the side <i>BC</i> in a fixed 1:2 ratio. It gives several
+                equivalent conditions, e.g., that the trilinear polar of <i>P</i> is parallel to its polar with respect
+                to the circumcircle, and shows that all such points lie on the Thomson cubic.</p>
+            </div>
+            <div class="links">
+              <a href="http://www.nsmath.cn/filedownload/172904"><i class="fa-solid fa-file-lines"></i> Original
+                (Chinese)</a>
+              <a href="./assets/pdf/nsmath.pdf"><i class="fa-solid fa-file-pdf"></i> English PDF</a>
+            </div>
+          </li>
+
+          <!-- <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/Reweave">Reweave</a></p>
+              <span class="project-date">Jun 2022 – Aug 2022</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong>, Lingbo Duan, Dayong Wang, JingJing Zhang</p>
+            <ul class="tags">
+              <li>Elm</li>
+              <li>Game Engine</li>
+              <li>Game Design</li>
+            </ul>
+          </li> -->
+
+          <!-- <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/meow-lang">Meow-Lang: An Experimental PL for
+                  String Replacement</a></p>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong></p>
+            <ul class="tags">
+              <li>Rust</li>
+            </ul>
+          </li> -->
+
+          <!-- <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/nova-wxm">Nova WXM: A Full-fledged Visual
+                  Novel Game Running on WeChat Mini Program Using Unity</a></p>
+              <span class="project-date">Jun 2022 – Aug 2023</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong>, TechJI Staff</p>
+            <ul class="tags">
+              <li>Unity</li>
+              <li>Nova</li>
+              <li>C#</li>
+              <li>Lua</li>
+            </ul>
+            <div class="entry-detail">
+              <p><a href="https://github.com/Lunatic-Works/Nova">Nova</a> is a visual novel game framework for Unity,
+                but it does not support the WebGL platform. Our team rewrote the asset management system and ported
+                Nova to the WeChat Mini Program platform using the <a
+                  href="https://github.com/wechat-miniprogram/minigame-unity-webgl-transform">Minigame Unity WebGL
+                  Transform</a> tool.</p>
+              <p>Our architecture supports script <b>hot loading</b>. All scripts and game resources (e.g., images) are
+                stored on the server.</p>
+              <p>We also developed an <a href="https://github.com/linsyking/nova-online-editor">online editor</a> for
+                non-programmers to write visual novel scripts.</p>
+              <p>See <a href="https://mp.weixin.qq.com/s/qVaIyXLulfuaPLAMDKfCIA">this post</a> to read more and play
+                the game!</p>
+            </div>
+          </li> -->
+
+          <!-- <li class="entry">
+            <div class="project-head">
+              <p class="entry-title"><a href="https://github.com/linsyking/CanvasHelper2">CanvasHelper2</a></p>
+              <span class="project-date">2021 – Present</span>
+            </div>
+            <p class="entry-authors"><strong>Yiming Xiang</strong>, TechJI Staff</p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>Vue.js</li>
+              <li>FastAPI</li>
+            </ul>
+          </li> -->
         </ol>
-      </div>
-
-    </section>
-    <footer>
-
-    </footer>
+      </section>
+    </main>
   </div>
-  <script src="/assets/js/scale.fix.js"></script>
 
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-111540567-4', 'auto');
-    ga('send', 'pageview');
-  </script>
-
+  <footer class="site-footer">
+    &copy; Yiming Xiang &middot; Based on the <a href="https://github.com/yaoyao-liu/minimal-light">minimal-light</a>
+    theme
+  </footer>
 </body>
 
 </html>
